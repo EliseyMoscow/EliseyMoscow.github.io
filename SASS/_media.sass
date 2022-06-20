@@ -1,0 +1,245 @@
+@media (max-width: 1200px)
+    .FrameOne 
+        .Header
+            max-width: 100%
+            margin: 0px
+            .Navigation
+                margin-left: 0px
+            .Navigation_bar_href
+                font-size: 12px
+        .FirstHeading
+            font-size: 69px
+    .FrameTwo
+        padding: 92px 0 0 0
+        .SectionTwoMainImg_girls
+            margin-right: 0px
+            max-width: 40%
+    .FrameThree
+        &_Width
+            padding: 30px 10px 0 10px 
+    .FrameFour
+        &_MainImg
+            width: 35%
+        &_Working
+            margin-left: 5%
+            &_Figure_Img_Text
+                margin-left: 30px
+        &_AditionalImg
+            top: 200px
+            left: 166px
+    .FrameSeven
+        &_Footer
+            max-width: 100%
+        &_Text
+            margin: 232px 25px
+@media (max-width: 991px)
+    .FrameOne 
+        padding-bottom: 0px
+        margin-bottom: 100px
+        .Header .Navigation_bar_href
+            margin-left: 15px
+            font-size: 14px
+        .SectionOneMainImg_girls
+            max-width: 50% 
+            padding-right: 10px
+        .FirstHeading
+            font-size: 57px
+    .FrameTwo 
+        .FrameTwoSecondText 
+            font-size: 13px
+            line-height: 33px
+    .MainServices
+        &_Block
+            width: 45%
+            display: inline-flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+        &_href
+            margin-bottom: 50px
+    .FrameFour
+        &_Header
+            font-size: 52px
+            margin-bottom: 50px
+        &_MainImg
+            display: none
+        &_AditionalImg
+            display: none
+        &_Working
+            margin-left: 10%
+    .FrameFive_AditionalImg
+        display: none
+    .FrameSeven
+        &_Text
+        margin: 232px 5px
+        &_Footer
+            padding-left: 10px
+            padding-right: 10px
+@media (max-width: 767px)
+    .FrameOne 
+        .Header
+            .All_Logo
+                width: 50px
+                height: 50px
+                &_text
+                    width: 50px
+                    height: 50px
+                    font-size: 22px
+                    &_second
+                        font-weight: 300 
+                        font-size: 12px
+                        line-height: 17px
+            .Navigation_bar_href
+                font-size: 12px
+                margin-left: 5px
+        .MainOne
+            padding-top: 120px
+        .FirstHeading
+            font-size: 40px
+            line-height: 50px
+            &_smalltext
+                font-size: 14px
+                margin-left: 5px
+        .SectionOneAdditionalImg
+            margin-top: 40px
+    .FrameTwo
+        min-height: 900px
+        padding-top: 20px
+        .FrameTwoSecondText
+            font-size: 14px
+            line-height: 24px
+            width: 300px
+            text-align: left
+            margin-left: 5px
+            &_Header
+                font-size: 36px
+        .SectionTwoMainImg_girls
+            margin-bottom: 120px
+            min-width: 50%
+        .SectionThreeTwoAditionalImg_girls
+            display: none
+    .FrameFour
+        max-height: 800px
+    .FrameSix_Article
+        font-size: 18px
+        margin: 10px 20px
+    .FrameSeven
+        min-height: 600px
+        &_Header
+            line-height: 50px
+            margin-bottom: 50px
+        &_Footer
+            display: flex
+            justify-content: center
+        &_Text
+            margin: 0px
+        &_SecondImg
+            display: none
+@media (max-width: 575px)
+    .FrameOne
+        .Header
+            justify-content: flex-start
+            .Navigation_bar
+                display: flex
+                position: absolute
+                right: -100%
+                justify-content: center
+                flex-direction: column
+                line-height: 100px
+                background-color: rgba(0,0,0, 0.3 )
+                color: #C1B28B
+                padding-bottom: 210px
+                width: 100%
+                margin-top: 25px
+                transition: 0.5s
+                &_active
+                    right: 0
+                &_href
+                    color: white
+                    font-size: 16px
+                    &::before
+                        bottom: 40px
+            .Hamburger
+                display: block
+                position: absolute 
+                right: 20px
+                top: 25px
+                transform: translateY(-50%) 
+                width: 25px
+                height: 15px
+                span
+                    display: block
+                    height: 2px
+                    width: 100%
+                    background-color: #C1B28B
+                    margin-bottom: 3px
+                    transition: 0.5s all
+                &_active
+                    span
+                        margin-bottom: -2px
+                        &:nth-child(1)
+                            transform: translateY(3px) rotate(-45deg)
+                        &:nth-child(2)
+                            display: none
+                        &:nth-child(3)
+                            transform: translateY(3px) rotate(45deg)                
+        .FirstHeading
+            font-size: 42px
+            line-height: 40px
+            margin: 20px 11px
+            &_smalltext
+                font-size: 14px
+                margin-left: 15px
+        .SectionOneMainImg_girls
+            margin-left: 15px
+            max-width: 90%
+        .FirstSubtitle
+            margin-top: 50px
+            margin-left: 20px
+            font-size: 22px
+        .Two
+            margin-left: 20px
+    .FrameTwo 
+        .SectionTwoSecondAditionalImg_girls
+            margin-left: 15px
+        .SectionTwoTwoAditionalImg_girls
+            margin: 40px 15px
+        .SectionTwoMainImg_girls
+            display: none
+        .FrameTwoSecondText
+            font-size: 20px
+            margin-top: 30px
+            margin-left: 15px
+    .FrameThree 
+        .ThreeHeading
+            font-size: 28px
+        .MainServices_Block
+            width: 100%
+    .FrameFour
+        &_Header
+            font-size: 40px
+            margin: 20px 20px
+        &_Working
+            display: flex
+            flex-wrap: wrap
+            &_Figure_Img_Text
+                font-size: 20px
+                line-height: 30px
+                margin-left: 2px
+                margin-right: 70px
+    .FrameSix
+        margin-top: 100px
+        &_Header
+            font-size: 32px
+        &_MainImg
+                max-width: 90%
+        &_Article
+            font-size: 15px
+    .FrameSeven
+        &_Header
+            font-size: 38px
+        &_Text
+            margin-bottom: 50px
+        
+    
+
